@@ -79,6 +79,8 @@ Currently, there is a maximum of 10 answers per poll.
 | answer_id\* | integer                                                                                 | The ID of the answer   |
 | poll_media  | [Poll Media Object](#DOCS_RESOURCES_POLL/poll-media-object-poll-media-object-structure) | The data of the answer |
 
+\* Only sent as part of responses from Discord's API/Gateway.
+
 ### Poll Results Object
 
 In a nutshell, this contains the number of votes for each answer.
